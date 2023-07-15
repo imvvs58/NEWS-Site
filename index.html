@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>My-news-app</title>
+</head>
+<body>
+  <!-- NavBar Start -->
+  <header>
+      <a href="#" class="logo"><img src="logo2.png" alt="Logo" /></a>  
+      <div class="group">
+        <div class="nav">
+          <ul class="navigation">
+            <li class="cta" onclick="search('india')">New</li>
+            <li onclick="search('technology')">technology</li>
+            <li onclick="search('business')">business</li>
+            <li onclick="search('Weather')">Weather</li>
+            <li onclick="search('Sport')">Sports</li>
+            <li class="cta"> <a href="fav.html">SavedNews</a></li>
+            <form class="searchForm">
+              <input type="text" placeholder="e.g. Sports" class="searchInput">
+              <button><ion-icon name="search-outline" class="searchBtn"></ion-icon></i></button>
+          </form>
+          </ul>
+      </div>
+      <ion-icon name="menu-outline" class="menuBtn"></ion-icon>
+      </div>
+  </header>
+  <!-- NavBar End -->
+  <!-- news card start -->
+  <main>
+    <div class="card-container" id="card-container"> 
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <div class="footerlogo">
+        NEESFEED
+      </div>
+      <div class="social-icon">
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+      </div>
+      <div class="copyright">
+        @imvvs58
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
